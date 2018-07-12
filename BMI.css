@@ -1,0 +1,26 @@
+html { 
+    background: url(bmi.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.centered {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgb(231, 225, 225);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .childre{
+      margin: auto;
+      padding: 3px
+  }
+
